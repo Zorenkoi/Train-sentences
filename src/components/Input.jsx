@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Textarea from "./TextArea";
+import Textarea from "./Textarea";
 
 const Input = ({ text }) => {
   const [value, setValue] = useState("");
