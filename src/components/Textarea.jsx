@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-function Textarea({ value, handleChange, className, initialHeight }) {
+const Textarea = ({ value, handleChange, className, initialHeight }) => {
   const textareaRef = useRef(null);
 
   const [textareaHeight, setTextareaHeight] = useState(`${initialHeight}px`);
@@ -34,6 +34,6 @@ function Textarea({ value, handleChange, className, initialHeight }) {
       ref={textareaRef}
     />
   );
-}
+};
 
 export default Textarea;
