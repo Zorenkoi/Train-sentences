@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import Sentence from "../components/Sentence";
 import { TextContext } from "../context/TextContext";
-import Textarea from "../components/TextArea";
+import Textarea from "../components/Textarea";
 import Input from "../components/Input";
 import SideBar from "../components/SideBar";
 
